@@ -29,6 +29,15 @@ Deploying the digital human blueprint based on few NIMs on GKE.
   - [NVIDIA A100 80GB (1) GPU](https://cloud.google.com/compute/docs/gpus#a100-gpus)
   - [NVIDIA H100 80GB (1) GPU or higher](https://cloud.google.com/compute/docs/gpus#a3-series)
 
+Clone the repo before proceeding further:
+
+   ```bash
+
+   git clone https://github.com/ai-on-gke/nvidia-ai-solutions
+   cd nvidia-ai-solutions/nim/blueprints/digitalhuman
+
+  ```
+
 ## Setup
 
 1. **Environment setup**: You'll set up several environment variables to make the following steps easier and more flexible. These variables store important information like cluster names, machine types, and API keys. You need to update the variable values to match your needs and context.

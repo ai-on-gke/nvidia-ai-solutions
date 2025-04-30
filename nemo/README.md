@@ -122,11 +122,12 @@ Default Compute Engine service account.
 
 The bootstrap phase initializes the Google Cloud project and terraform environment for resources state management.
 
-1. Download [source](https://github.com/GoogleCloudPlatform/NVIDIA-nemo-on-gke.git)
+1. Download [source](https://github.com/ai-on-gke/nvidia-ai-solutions.git)
 
     ```console
-    git clone https://github.com/GoogleCloudPlatform/NVIDIA-nemo-on-gke.git
-    cd NVIDIA-nemo-on-gke/infra
+    git clone https://github.com/ai-on-gke/nvidia-ai-solutions.git
+    cd nvidia-ai-solutions/nemo
+
     ```
 
 2. Configure gcloud

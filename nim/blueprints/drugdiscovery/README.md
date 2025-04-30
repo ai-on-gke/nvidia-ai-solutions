@@ -17,9 +17,8 @@ Clone the repo before proceeding further:
 
    ```bash
 
-   git clone https://github.com/GoogleCloudPlatform/ai-on-gke
-
-   cd ai-on-gke/tutorials-and-examples/nvidia-nim/blueprints/drugdiscovery
+   git clone https://github.com/ai-on-gke/nvidia-ai-solutions
+   cd nvidia-ai-solutions/nim/blueprints/drugdiscovery
 
   ```
 

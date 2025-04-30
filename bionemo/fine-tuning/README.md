@@ -24,8 +24,8 @@ This sample walks through setting up a Google Cloud GKE environment to fine-tune
 You can skip this step, if done previously.
 
   ```bash
-  git clone https://github.com/GoogleCloudPlatform/ai-on-gke
-  cd ai-on-gke/tutorials-and-examples/nvidia-bionemo
+  git clone https://github.com/ai-on-gke/nvidia-ai-solutions
+  cd nvidia-ai-solutions/bionemo
   ```
 
 ## Setup

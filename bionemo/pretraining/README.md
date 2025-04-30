@@ -22,8 +22,8 @@ This samples walks through setting up a Google Cloud GKE environment to train ES
 Clone the repo before proceeding further:
 
   ```bash
-  git clone https://github.com/GoogleCloudPlatform/ai-on-gke
-  cd ai-on-gke/tutorials-and-examples/nvidia-bionemo
+  git clone https://github.com/ai-on-gke/nvidia-ai-solutions
+  cd nvidia-ai-solutions/bionemo
   ```
 
 ## Setup
