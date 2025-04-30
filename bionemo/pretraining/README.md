@@ -101,7 +101,7 @@ then run:
 k apply -k pretraining/
 ```
 
-> NOTE:
+> [!NOTE]
 > Wait for 10-15 minutes to complete the file store mounting and job training. The dataset used in the walkthrough is a small sampling. It could take 8-10 minutes for data to be downloaded and all the steps to be completed. Upon successful completion of pre-training job, below message will be displayed.
 
 ```bash
@@ -116,7 +116,7 @@ List PODs and ensure tensorboard POD is under `Running` status
 k get pods -n bionemo-training
 ```
 
-> NOTE:
+> [!NOTE]
 > It is assumed that the local port 8000 is available. If the post is unavailable, update below to an available port.
 
 ```bash
@@ -127,7 +127,7 @@ k port-forward -n bionemo-training svc/tensorboard-service 8080:6006
 
 On your local machine: Browse to <http://localhost:8080> port forward from above step timeseries and see the loss curves as show below.
 
-> NOTE:
+> [!NOTE]
 > Tensorboard dashboards will take some time to show up as the bioenemo job takes a few minutes to kick off. Then, the full plots will show up once the job's POD is under `COMPLETED` status.
 
 [<img src="./images/tensorboard-results.png" width="750"/>](HighLevelArch)
@@ -140,7 +140,7 @@ On your local machine: Browse to <http://localhost:8080> port forward from above
 k delete -k pretraining/
 ```
 
-> NOTE:
+> [!NOTE]
 > This cluster can be used for fine-tuning. Feel free to skip the next step if you want to reuse it.
 
 2. To delete the cluster
