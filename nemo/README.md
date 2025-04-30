@@ -291,7 +291,8 @@ Below are the details of dataset used for training.
 - [ ] Upload data to it
 `gcloud storage cp my-training-data.{idx,bin} gs://<unique-bucket-name>`
 
-    > :warning: Training data cannot exceed the size of the local SSD (6TB). Each node has 16 local SSDs of 200GB each. For larger sizes the shared Filestore or GCS fuse can be used.
+    > [!WARNING]
+    > Training data cannot exceed the size of the local SSD (6TB). Each node has 16 local SSDs of 200GB each. For larger sizes the shared Filestore or GCS fuse can be used.
 
 #### Training Image
 
@@ -472,7 +473,8 @@ deactivate
 
 #### Destroy environment
 
-> :warning: All resources provisioned in this walkthrough will be destroyed.
+> [!WARNING]
+> All resources provisioned in this walkthrough will be destroyed.
 
 ```bash
 cd ../3-config
