@@ -46,10 +46,11 @@ export PUBLIC_REPOSITORY=$PROJECT_ID
 export REGION=us-central1
 export ZONE=us-central1-a
 export CLUSTER_NAME=bionemo-demo
-export NODE_POOL_MACHINE_TYPE=a2-highgpu-1g # e.g., g2-standard-24 (L4) or a2-ultragpu-1g (A100 80GB)
-export CLUSTER_MACHINE_TYPE=e2-standard-2 
-export GPU_TYPE=nvidia-tesla-a100 # e.g., nvidia-l4 (L4) OR nvidia-a100-80gb (A100 80GB)
-export GPU_COUNT=1 # e.g., 2 (L4) OR 1 (A100 80GB)
+export NODE_POOL_MACHINE_TYPE=g2-standard-24 #e.g., a2-highgpu-1g (A100 40GB) or a2-ultragpu-1g (A100 80GB)
+export CLUSTER_MACHINE_TYPE=e2-standard-2
+export GPU_TYPE=nvidia-l4 # e.g., nvidia-tesla-a100 for A100 40GB OR nvidia-a100-80gb (A100 80GB)
+export GPU_COUNT=2 # e.g., 1 (A100)
+
 export NETWORK_NAME="default"
 ```
 
