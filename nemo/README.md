@@ -301,7 +301,7 @@ The latest NVIDIA NeMo Framework Training image available at [NGC Catalog](https
 
 The file [nemo-example/selected-configuration.yaml](./infra/4-training/nemo-example/selected-configuration.yaml) is a [NeMo Megatron](https://github.com/NVIDIA/NeMo) compatible configuration file. It is soft-linked to the GPT-5B file at `nemo-example/nemo-configurations/gpt-5b.yaml`.
 
-> :Note:
+> [!NOTE]
 > For the initial run, use the same file. For future launches, review and edit the configuration. [NeMo Megatron Launcher](https://github.com/NVIDIA/NeMo-Megatron-Launcher/tree/master/launcher_scripts/conf/training) has examples of alternate models and model sizes.
 
 #### Launch training using Helm
@@ -351,7 +351,7 @@ kubectl get pods -A | grep nemo
 
 **Expected:** `$USER-nemo-gpt-5b-YYYYMMDDHHmmss` jobs in `RUNNING` status
 
-> Note:
+> [!NOTE]
 > The workload might take from 30 to 60 minutes to complete running for the 5B file. Training duration depends on cluster size.
 
 ### Observations
