@@ -39,7 +39,6 @@ Replace "your-project-id" with your actual project ID.
 2. Set Environment Variables:
 
 ```bash
-
 export REGION=us-central1
 export ZONE=us-central1-a
 export CLUSTER_NAME=bionemo-demo
