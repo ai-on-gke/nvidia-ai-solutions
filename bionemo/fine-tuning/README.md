@@ -205,7 +205,7 @@ curl -X POST http://localhost:8080/predict \
   -d '{"sequence": "MKTVRQERLKSIVRILERSKEPVSGAQLAEELSVSRQVIVQDIAYLRSLGYNIVATPRGYVLAGG"}'
 ```
 
-See [here](https://docs.nvidia.com/bionemo-framework/latest/user-guide/examples/bionemo-esm2/inference/) documentation reference.
+See [here](https://docs.nvidia.com/bionemo-framework/2.5/user-guide/examples/bionemo-esm2/inference/) documentation reference.
 
 ## Cleanup
 
